@@ -1,0 +1,28 @@
+{
+    "name": "discord-terfi-sistemi",
+    "version": "1.0.0",
+    "description": "Discord için profesyonel terfi sistemi",
+    "main": "index.js",
+    "scripts": {
+      "start": "node index.js",
+      "deploy": "node deploy-commands.js",
+      "dev": "nodemon index.js"
+    },
+    "keywords": [
+      "discord",
+      "bot",
+      "terfi",
+      "role",
+      "management"
+    ],
+    "author": "Terfinizi yapan yetkili",
+    "license": "MIT",
+    "dependencies": {
+      "discord.js": "^14.14.1",
+      "fs": "^0.0.1-security",
+      "path": "^0.12.7"
+    },
+    "devDependencies": {
+      "nodemon": "^3.0.1"
+    }
+  }
